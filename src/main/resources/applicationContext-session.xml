@@ -13,6 +13,9 @@
         <property name="cookieSerializer" ref="defaultCookieSerializer"/>
     </bean>
 
+
+
+
     <bean id="defaultCookieSerializer" class="org.springframework.session.web.http.DefaultCookieSerializer">
         <property name="cookiePath" value="/"/>
     </bean>
